@@ -9,7 +9,7 @@ function decimalToBinary(num) {
 	if(num === 1){
 	    arr.push(num)
 	}
-	arr.sort((a, b) => b-a)
+	// arr.sort((a, b) => b-a)
 
 	let ans = arr[0];
 	for (let i = 1; i < arr.length; i++) {
