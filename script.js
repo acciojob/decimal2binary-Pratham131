@@ -6,10 +6,11 @@ function decimalToBinary(num) {
 	    arr.push(num%2)
 	    num = Math.floor(num/2)
 	}
+	arr.sort((a, b) => b-a)
 	if(num === 1){
 	    arr.unshift(num)
 	}
-	arr.sort((a, b) => b-a)
+	
 
 	let ans = arr[0];
 	for (let i = 1; i < arr.length; i++) {
