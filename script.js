@@ -28,7 +28,7 @@ function decimalToBinary(num) {
 	// for (let i = 1; i < arr.length; i++) {
 	// 	ans = ans*10 + arr[i];
 	// }
-	return ans.toString();
+	return binary.toString();
 }
 
 window.decimalToBinary = decimalToBinary;
