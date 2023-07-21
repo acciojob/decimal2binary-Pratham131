@@ -1,7 +1,7 @@
 function decimalToBinary(num) {
   // Write your code here
 
-	if (decimal === 0) return '0';
+	if (num === 0) return '0';
 
   let binary = '';
   // while (decimal > 0) {
